@@ -119,8 +119,9 @@
           </execution>
         </executions>
         <configuration>
-          <mainClass>com.david.stydyapp.studyapp/com.jmc.mazebank.HelloApplication</mainClass>
           <!-- <mainClass>com.david.BankTransaction.App</mainClass>   Sin el módulo repetido -->
+          <!-- TODO: Check if it's re correct route -->
+          <mainClass>com.jmc.mazebank/com.jmc.mazebank.App</mainClass>
           <launcher>app</launcher>
           <jlinkZipName>app</jlinkZipName>
           <jlinkImageName>app</jlinkImageName>
