@@ -1,4 +1,4 @@
-package com.david.stydyapp.studyapp;
+package com.jmc.mazebank;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

@@ -11,6 +11,6 @@ module com.david.stydyapp.studyapp {
     // requires eu.hansolo.tilesfx;
     // requires com.almasb.fxgl.all;
 
-    opens com.david.stydyapp.studyapp to javafx.fxml;
-    exports com.david.stydyapp.studyapp;
+    opens com.jmc.mazebank to javafx.fxml;
+    exports com.jmc.mazebank;
 }

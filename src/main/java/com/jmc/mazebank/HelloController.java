@@ -1,4 +1,4 @@
-package com.david.stydyapp.studyapp;
+package com.jmc.mazebank;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

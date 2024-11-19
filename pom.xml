@@ -80,7 +80,7 @@
           <execution>
             <id>default-cli</id>
             <configuration>
-              <mainClass>com.david.stydyapp.studyapp/com.david.stydyapp.studyapp.HelloApplication</mainClass>
+              <mainClass>com.david.stydyapp.studyapp/com.jmc.mazebank.HelloApplication</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>
@@ -119,7 +119,7 @@
           </execution>
         </executions>
         <configuration>
-          <mainClass>com.david.stydyapp.studyapp/com.david.stydyapp.studyapp.HelloApplication</mainClass>
+          <mainClass>com.david.stydyapp.studyapp/com.jmc.mazebank.HelloApplication</mainClass>
           <!-- <mainClass>com.david.BankTransaction.App</mainClass>   Sin el módulo repetido -->
           <launcher>app</launcher>
           <jlinkZipName>app</jlinkZipName>
