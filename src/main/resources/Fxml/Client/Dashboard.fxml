@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="750.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jmc.mazebank.Controllers.Client.DashboardController">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Hi Partick" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="30.0" />
+      <Label text="Label" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="30.0" />
+      <Text layoutX="30.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Accounts Summary" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="80.0" />
+      <Text layoutX="40.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Accounts" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="80.0" />
+      <HBox prefHeight="180.0" prefWidth="620.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="120.0">
+         <children>
+            <AnchorPane prefHeight="140.0" prefWidth="290.0">
+               <children>
+                  <Label text="\$3.000.000" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="25.0" />
+                  <Label layoutX="24.0" layoutY="35.0" text="*** *** ***" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="14.0" />
+                  <Label layoutX="24.0" layoutY="128.0" text="3333" AnchorPane.bottomAnchor="47.0" AnchorPane.leftAnchor="138.0" />
+                  <VBox prefHeight="100.0" prefWidth="35.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="14.0" />
+                  <FontAwesomeIconView glyphName="BANK" layoutX="252.0" layoutY="29.0" size="30" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="7.0" />
+                  <Text layoutX="15.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Checking Account" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="14.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="140.0" prefWidth="290.0">
+               <children>
+                  <Label text="\$3.000.000" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="25.0" />
+                  <Label layoutX="24.0" layoutY="35.0" text="*** *** ***" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="14.0" />
+                  <Label layoutX="24.0" layoutY="128.0" text="3333" AnchorPane.bottomAnchor="47.0" AnchorPane.leftAnchor="138.0" />
+                  <VBox prefHeight="100.0" prefWidth="35.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="14.0" />
+                  <FontAwesomeIconView glyphName="BANK" layoutX="252.0" layoutY="29.0" size="30" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="7.0" />
+                  <Text layoutX="15.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Saving Account" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="14.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <VBox layoutX="729.0" layoutY="127.0" prefHeight="180.0" prefWidth="210.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="120.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Income" />
+                  <Label text="+ $400" />
+                  <Line endX="80.0" startX="-100.0" />
+                  <Text layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exprenses" />
+                  <Label layoutX="10.0" layoutY="28.0" text="- $0.00" />
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+      <Text layoutX="11.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Latest Transactions" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="340.0" />
+      <Text layoutX="760.0" layoutY="352.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Send Money" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="340.0" />
+      <ListView prefHeight="365.0" prefWidth="570.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" />
+      <VBox layoutX="713.0" layoutY="447.0" prefHeight="365.0" prefWidth="230.0" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0">
+         <children>
+            <Label text="Payee Address:" />
+            <TextField />
+            <Label layoutX="10.0" layoutY="10.0" text="Amoint in $:" />
+            <TextField layoutX="10.0" layoutY="28.0" />
+            <Label layoutX="10.0" layoutY="53.0" text="Message: (Optional)" />
+            <TextArea prefHeight="70.0" prefWidth="200.0" />
+            <Button mnemonicParsing="false" text="Send Money" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
