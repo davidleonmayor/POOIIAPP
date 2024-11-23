@@ -17,7 +17,5 @@ public class Model {
         return  model;
     }
 
-    public void showLogin() {
-        viewFactory.showLoginWindow();
-    }
+    public ViewFactory getViewFactory() {return viewFactory;}
 }
