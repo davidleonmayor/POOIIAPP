@@ -10,9 +10,9 @@ import javafx.stage.Stage;
 public class ViewFactory {
     // Scenes path
     private final String LOGIN_PATH = "/Fxml/Login.fxml";
-    private final String CLIENT_MENU_PATH = "/FXML/Client/ClientMenu.fxml";
-    private final String DASHBOARD_PATH = "/FXML/Client/Dashboard.fxml";
-    private final String MAIN_CLIENT_WINDOW = "/FXML/Client/Client.fxml";
+    private final String CLIENT_MENU_PATH = "/Fxml/Client/ClientMenu.fxml";
+    private final String DASHBOARD_PATH = "/Fxml/Client/Dashboard.fxml";
+    private final String MAIN_CLIENT_WINDOW = "/Fxml/Client/Client.fxml";
 
     private AnchorPane dashboardView;
 
