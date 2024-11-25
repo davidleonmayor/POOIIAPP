@@ -1,0 +1,19 @@
+.dashboard {
+    -fx-background-color: #EEEEEE;
+}
+
+.title {
+     -fx-font-size: 2.6em;
+     -fx-font-family: "Calibri Light";
+ }
+
+/* Accounts View */
+.container_content {
+     -fx-background-color: #FFFFFF;
+     -fx-background-radius: 10 0 0 10;
+     -fx-padding: 10 0 10 0;
+     -fx-alignment: center;
+     -fx-border-width: 0 1 0 0;
+     -fx-border-color: #DDDDDD;
+     -fx-spacing: 10;
+}

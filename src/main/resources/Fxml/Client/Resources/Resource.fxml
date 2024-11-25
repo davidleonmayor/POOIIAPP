@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="60.0" prefWidth="550.0" stylesheets="@../../../Styles/resource.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jmc.mazebank.Controllers.Client.Resources.ResourceController">
+   <children>
+      <FontAwesomeIconView glyphName="BOOK" size="20" text="" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="20.0" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title" text="Title" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="18.0" />
+   </children>
+</AnchorPane>
